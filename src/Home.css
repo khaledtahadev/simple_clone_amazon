@@ -1,0 +1,21 @@
+.Home {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+.Home__Image {
+	width: 100%;
+	mask-image: linear-gradient(to bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0.1));
+	margin-bottom: -40px;
+	position: relative;
+	z-index: -1;
+}
+.product_Row {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 768px) {
+	.product_Row {
+		flex-direction: row;
+	}
+}

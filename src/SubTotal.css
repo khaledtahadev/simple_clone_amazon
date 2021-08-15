@@ -1,0 +1,32 @@
+.subTotal {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 200px;
+	background-color: gray;
+	color: #fff;
+	border-radius: 4px;
+}
+.subTotal h1 {
+	text-align: center;
+}
+.subTotal_Price {
+	color: #222;
+}
+.subTotal__Gift {
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+}
+.subTotal__Gift input {
+	margin-right: 5px;
+}
+.subTotal__Button {
+	border: 0;
+	padding: 8px;
+	color: #fff;
+	background: darkgoldenrod;
+	border-radius: 4px;
+	cursor: pointer;
+}
